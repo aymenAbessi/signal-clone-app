@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "signals",
+    "slug": "signals",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/signal-square-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/signal.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.aymen2022.signals"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "71701aca-8aaa-441b-a4f1-e4e724c2e5c7"
+      }
+    }
+  }
+}
